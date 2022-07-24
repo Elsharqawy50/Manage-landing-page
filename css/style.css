@@ -180,16 +180,13 @@ width: 500px;
   width: 88%;
 }
 /* start charcter */
-.charcter .desktopCards {
-overflow-x: auto;
-}
 .charcter h1 {
   color: var(--primary-blue-);
 }
 .charcter .desktopCards .cards {
 background-color: var(--secondry-color-4-);
 position: relative;
-width: 500px;
+width: 100%;
 }
 .charcter .mobileCards {
   overflow-x: hidden;

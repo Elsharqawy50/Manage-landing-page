@@ -7,56 +7,37 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-    href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap"
-    rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="icon" href="images/favicon-32x32.png">
-    <title>Frontend Mentor | Manage landing page</title>
+    <link rel="icon" href="images/favicon-32x32.png" />
+    <title>Manage Landing Page</title>
   </head>
   <body>
     <div class="site">
-    <!-- start navbar -->
-    <nav class="navbar navbar-expand-md mt-4 mt-md-5">
-      <div class="container">
-        <a class="navbar-brand" href="#"
-          ><img src="images/logo.svg" alt="logo"
-        /></a>
-        <button class="navbar-toggler" type="button">
-          <span class="navbar-toggler-icon d-flex justify-content-center">
-            <img src="images/icon-hamburger.svg" alt="bar" class="bar" />
-            <img
-              src="images/icon-close.svg"
-              class="close d-none position-fixed"
-              style="z-index: 15"
-              alt="bar"
-            />
-          </span>
-        </button>
-        <!-- desktop nav  -->
-        <ul class="navbar-nav ms-auto mx-lg-auto mb-2 mb-lg-0 d-none d-md-flex">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">product</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">about us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">careers</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">community</a>
-          </li>
-        </ul>
-        <!-- mobile nav  -->
-        <div class="mobileNavbar">
+      <!-- start navbar -->
+      <nav class="navbar navbar-expand-md mt-4 mt-md-5">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img src="images/logo.svg" alt="logo"
+          /></a>
+          <button class="navbar-toggler" type="button">
+            <span class="navbar-toggler-icon d-flex justify-content-center">
+              <img src="images/icon-hamburger.svg" alt="bar" class="bar" />
+              <img
+                src="images/icon-close.svg"
+                class="close d-none position-fixed"
+                style="z-index: 15"
+                alt="bar"
+              />
+            </span>
+          </button>
+          <!-- desktop nav  -->
           <ul
-            class="navbar-nav ms-auto mx-lg-auto mb-2 mb-lg-0 justify-content-center align-items-center"
+            class="navbar-nav ms-auto mx-lg-auto mb-2 mb-lg-0 d-none d-md-flex"
           >
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#"
@@ -76,184 +57,262 @@
               <a class="nav-link" href="#">community</a>
             </li>
           </ul>
+          <!-- mobile nav  -->
+          <div class="mobileNavbar">
+            <ul
+              class="navbar-nav ms-auto mx-lg-auto mb-2 mb-lg-0 justify-content-center align-items-center"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >pricing</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">about us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">careers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">community</a>
+              </li>
+            </ul>
+          </div>
+          <button
+            type="button"
+            class="btn rounded-pill px-4 py-2 d-none d-lg-block"
+          >
+            Get Started
+          </button>
         </div>
-        <button
-          type="button"
-          class="btn rounded-pill px-4 py-2 d-none d-lg-block"
-        >
-          Get Started
-        </button>
-      </div>
-      <div class="desktopShape d-none d-md-block ">
-        <img src="images/bg-tablet-pattern.svg" class="img-fluid" alt="" />
-      </div>
-      <div class="mobileShape d-block d-md-none">
-        <img src="images/bg-tablet-pattern.svg" class="img-fluid" alt="" />
-      </div>
-    </nav>
-    <!-- start landing section -->
-    <div class="landing">
-      <div class="container pt-5 pb-5">
-        <div class="row">
-          <div class="col-md-6 order-2 order-md-1">
-            <div class="textLanding text-center text-md-start mt-1 mt-lg-5">
-              <h1 class="pt-2 pt-lg-5 fw-bold w-100">
-                bring everyone together to build better products.
-              </h1>
-              <p class="mb-lg-5 mt-lg-4 my-4 mx-auto ms-md-1">
-                manage makes it simple for software teams to plan day-to-day
-                tasks while while keeping the larger team goals in view.
-              </p>
-              <button type="button" class="btn rounded-pill px-4 py-2">
-                Get Started
-              </button>
-            </div>
-          </div>
-          <div class="col-md-6 order-1 order-md-2 ms-auto">
-            <div class="img mt-lg-5">
-              <img
-                src="images/illustration-intro.svg"
-                class="img-fluid w-100"
-                alt=""
-              />
-            </div>
-          </div>
+        <div class="desktopShape d-none d-md-block">
+          <img src="images/bg-tablet-pattern.svg" class="img-fluid" alt="" />
         </div>
-      </div>
-      <div class="desktopShape d-md-block d-none">
-        <img src="images/bg-tablet-pattern.svg" class="img-fluid" alt="" />
-      </div>
-      <div class="mobileShape d-md-none d-block">
-        <img src="images/bg-tablet-pattern.svg" class="" alt="" />
-      </div>
-    </div>
-    <!-- start manage section -->
-    <div class="manage">
-      <div class="container pt-5 pb-md-5">
-        <div class="row">
-          <div class="col-md-6 mt-md-5 pt-md-4">
-            <div class="textManage text-center text-md-start">
-              <h1 class="fw-bold">what's different about manage?</h1>
-              <p class="mx-auto ms-md-1 mt-4">
-                manage provides all the functionality your team needs, without
-                the complexity. our software is tailor-mode for modern digital
-                product teams.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-5 pt-4 d-none d-md-block">
-            <div class="first d-flex">
-              <div
-                class="num rounded-pill text-white py-3 px-4 d-flex justify-content-center align-items-center"
-              >
-                01
-              </div>
-              <div class="textManageNum ms-4 py-1">
-                <h6 class="fw-bold">track company-wide progress</h6>
-                <p class="mt-4 mb-5">
-                  See how your day-to-day tasks fit into the wider vision. Go
-                  from tracking progress at the milestone level all the way done
-                  to the smallest of details. Never lose sight of the bigger
-                  picture again.
+        <div class="mobileShape d-block d-md-none">
+          <img src="images/bg-tablet-pattern.svg" class="img-fluid" alt="" />
+        </div>
+      </nav>
+      <!-- start landing section -->
+      <div class="landing">
+        <div class="container pt-5 pb-5">
+          <div class="row">
+            <div class="col-md-6 order-2 order-md-1">
+              <div class="textLanding text-center text-md-start mt-1 mt-lg-5">
+                <h1 class="pt-2 pt-lg-5 fw-bold w-100">
+                  bring everyone together to build better products.
+                </h1>
+                <p class="mb-lg-5 mt-lg-4 my-4 mx-auto ms-md-1">
+                  manage makes it simple for software teams to plan day-to-day
+                  tasks while while keeping the larger team goals in view.
                 </p>
+                <button type="button" class="btn rounded-pill px-4 py-2">
+                  Get Started
+                </button>
               </div>
             </div>
-            <div class="second d-flex">
-              <div
-                class="num rounded-pill text-white py-3 px-4 d-flex justify-content-center align-items-center"
-              >
-                02
-              </div>
-              <div class="textManageNum ms-4 py-1">
-                <h6 class="fw-bold">Advanced built-in reports</h6>
-                <p class="mt-4 mb-5">
-                  Set internal delivery estimates and track progress toward
-                  company goals. Our customisable dashboard helps you build out
-                  the reports you need to keep key stakeholders informed.
-                </p>
-              </div>
-            </div>
-            <div class="third d-flex">
-              <div
-                class="num rounded-pill text-white py-3 px-4 d-flex justify-content-center align-items-center"
-              >
-                03
-              </div>
-              <div class="textManageNum ms-4 py-1">
-                <h6 class="fw-bold">Everything you need in one place</h6>
-                <p class="mt-4 mb-5">
-                  Stop jumping from one service to another to communicate, store
-                  files, track tasks and share documents. Manage offers an
-                  all-in-one team productivity solution.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 mt-2 pt-4 d-block d-md-none">
-            <div class="first">
-              <div class="textManageNum py-1">
-                <h6
-                  class="fw-bold d-flex justify-content-start align-items-center headerMobile rounded-pill"
-                >
-                  <span
-                    class="num rounded-pill text-white py-3 px-4 d-flex justify-content-center align-items-center me-3"
-                    >01</span
-                  >Track company-wide progress
-                </h6>
-                <p class="mt-4 mb-5">
-                  See how your day-to-day tasks fit into the wider vision. Go
-                  from tracking progress at the milestone level all the way done
-                  to the smallest of details. Never lose sight of the bigger
-                  picture again.
-                </p>
-              </div>
-            </div>
-            <div class="second">
-              <div class="textManageNum py-1">
-                <h6
-                  class="fw-bold d-flex justify-content-start align-items-center headerMobile rounded-pill"
-                >
-                  <span
-                    class="num rounded-pill text-white py-3 px-4 d-flex justify-content-center align-items-center me-3"
-                    >02</span
-                  >Advanced built-in reports
-                </h6>
-                <p class="mt-4 mb-5">
-                  Set internal delivery estimates and track progress toward
-                  company goals. Our customisable dashboard helps you build out
-                  the reports you need to keep key stakeholders informed.
-                </p>
-              </div>
-            </div>
-            <div class="third">
-              <div class="textManageNum py-1">
-                <h6
-                  class="fw-bold d-flex justify-content-start align-items-center headerMobile rounded-pill"
-                >
-                  <span
-                    class="num rounded-pill text-white py-3 px-4 d-flex justify-content-center align-items-center me-3"
-                    >03</span
-                  >Everything you need in one place
-                </h6>
-                <p class="mt-4 mb-5">
-                  Stop jumping from one service to another to communicate, store
-                  files, track tasks and share documents. Manage offers an
-                  all-in-one team productivity solution.
-                </p>
+            <div class="col-md-6 order-1 order-md-2 ms-auto">
+              <div class="img mt-lg-5">
+                <img
+                  src="images/illustration-intro.svg"
+                  class="img-fluid w-100"
+                  alt=""
+                />
               </div>
             </div>
           </div>
         </div>
+        <div class="desktopShape d-md-block d-none">
+          <img src="images/bg-tablet-pattern.svg" class="img-fluid" alt="" />
+        </div>
+        <div class="mobileShape d-md-none d-block">
+          <img src="images/bg-tablet-pattern.svg" class="" alt="" />
+        </div>
       </div>
-    </div>
-    <!-- start charcter section -->
-    <div class="charcter pt-3 pt-md-5">
-      <h1 class="text-center mb-5 fw-bold">What they've said</h1>
-      <div class="container d-md-grid desktopCards d-none">
-        <div class="row">
-          <div class="col-md-6 col-lg-3 ">
+      <!-- start manage section -->
+      <div class="manage">
+        <div class="container pt-5 pb-md-5">
+          <div class="row">
+            <div class="col-md-6 mt-md-5 pt-md-4">
+              <div class="textManage text-center text-md-start">
+                <h1 class="fw-bold">what's different about manage?</h1>
+                <p class="mx-auto ms-md-1 mt-4">
+                  manage provides all the functionality your team needs, without
+                  the complexity. our software is tailor-mode for modern digital
+                  product teams.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 mt-5 pt-4 d-none d-md-block">
+              <div class="first d-flex">
+                <div
+                  class="num rounded-pill text-white py-3 px-4 d-flex justify-content-center align-items-center"
+                >
+                  01
+                </div>
+                <div class="textManageNum ms-4 py-1">
+                  <h6 class="fw-bold">track company-wide progress</h6>
+                  <p class="mt-4 mb-5">
+                    See how your day-to-day tasks fit into the wider vision. Go
+                    from tracking progress at the milestone level all the way
+                    done to the smallest of details. Never lose sight of the
+                    bigger picture again.
+                  </p>
+                </div>
+              </div>
+              <div class="second d-flex">
+                <div
+                  class="num rounded-pill text-white py-3 px-4 d-flex justify-content-center align-items-center"
+                >
+                  02
+                </div>
+                <div class="textManageNum ms-4 py-1">
+                  <h6 class="fw-bold">Advanced built-in reports</h6>
+                  <p class="mt-4 mb-5">
+                    Set internal delivery estimates and track progress toward
+                    company goals. Our customisable dashboard helps you build
+                    out the reports you need to keep key stakeholders informed.
+                  </p>
+                </div>
+              </div>
+              <div class="third d-flex">
+                <div
+                  class="num rounded-pill text-white py-3 px-4 d-flex justify-content-center align-items-center"
+                >
+                  03
+                </div>
+                <div class="textManageNum ms-4 py-1">
+                  <h6 class="fw-bold">Everything you need in one place</h6>
+                  <p class="mt-4 mb-5">
+                    Stop jumping from one service to another to communicate,
+                    store files, track tasks and share documents. Manage offers
+                    an all-in-one team productivity solution.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mt-2 pt-4 d-block d-md-none">
+              <div class="first">
+                <div class="textManageNum py-1">
+                  <h6
+                    class="fw-bold d-flex justify-content-start align-items-center headerMobile rounded-pill"
+                  >
+                    <span
+                      class="num rounded-pill text-white py-3 px-4 d-flex justify-content-center align-items-center me-3"
+                      >01</span
+                    >Track company-wide progress
+                  </h6>
+                  <p class="mt-4 mb-5">
+                    See how your day-to-day tasks fit into the wider vision. Go
+                    from tracking progress at the milestone level all the way
+                    done to the smallest of details. Never lose sight of the
+                    bigger picture again.
+                  </p>
+                </div>
+              </div>
+              <div class="second">
+                <div class="textManageNum py-1">
+                  <h6
+                    class="fw-bold d-flex justify-content-start align-items-center headerMobile rounded-pill"
+                  >
+                    <span
+                      class="num rounded-pill text-white py-3 px-4 d-flex justify-content-center align-items-center me-3"
+                      >02</span
+                    >Advanced built-in reports
+                  </h6>
+                  <p class="mt-4 mb-5">
+                    Set internal delivery estimates and track progress toward
+                    company goals. Our customisable dashboard helps you build
+                    out the reports you need to keep key stakeholders informed.
+                  </p>
+                </div>
+              </div>
+              <div class="third">
+                <div class="textManageNum py-1">
+                  <h6
+                    class="fw-bold d-flex justify-content-start align-items-center headerMobile rounded-pill"
+                  >
+                    <span
+                      class="num rounded-pill text-white py-3 px-4 d-flex justify-content-center align-items-center me-3"
+                      >03</span
+                    >Everything you need in one place
+                  </h6>
+                  <p class="mt-4 mb-5">
+                    Stop jumping from one service to another to communicate,
+                    store files, track tasks and share documents. Manage offers
+                    an all-in-one team productivity solution.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- start charcter section -->
+      <div class="charcter pt-3 pt-md-5">
+        <h1 class="text-center mb-5 fw-bold">What they've said</h1>
+        <div class="container d-md-grid desktopCards d-none">
+          <div class="row">
+            <div class="col-md-6 col-lg-3">
+              <div
+                class="cards d-flex flex-column justify-content-center align-items-center mt-5 pt-5 pb-4 px-3 text-center"
+              >
+                <img src="images/avatar-anisha.png" alt="anisha photo" />
+                <h6 class="fw-bold mt-2 mb-3">Anisha li</h6>
+                <p>
+                  “Manage has supercharged our team’s workflow. The ability to
+                  maintain visibility on larger milestones at all times keeps
+                  everyone motivated.”
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div
+                class="cards d-flex flex-column justify-content-center align-items-center mt-5 pt-5 pb-4 px-3 text-center"
+              >
+                <img src="images/avatar-ali.png" alt="anisha photo" />
+                <h6 class="fw-bold mt-2 mb-3">Ali Bravo</h6>
+                <p>
+                  “We have been able to cancel so many other subscriptions since
+                  using Manage. There is no more cross-channel confusion and
+                  everyone is much more focused.”
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-md-4 mt-lg-0">
+              <div
+                class="cards d-flex flex-column justify-content-center align-items-center mt-5 pt-5 pb-4 px-3 text-center"
+              >
+                <img src="images/avatar-richard.png" alt="anisha photo" />
+                <h6 class="fw-bold mt-2 mb-3">Richard Watts</h6>
+                <p>
+                  “Manage allows us to provide structure and process. It keeps
+                  us organized and focused. I can’t stop recommending them to
+                  everyone I talk to!”
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-md-4 mt-lg-0">
+              <div
+                class="cards d-flex flex-column justify-content-center align-items-center mt-5 pt-5 pb-4 px-3 text-center"
+              >
+                <img src="images/avatar-shanai.png" alt="anisha photo" />
+                <h6 class="fw-bold mt-2 mb-3">Shanai Gough</h6>
+                <p>
+                  “Their software allows us to track, manage and collaborate on
+                  our projects from anywhere. It keeps the whole team in-sync
+                  without being intrusive.”
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-md-none mobileCards d-flex">
+          <div class="col-12">
             <div
-              class="cards d-flex flex-column justify-content-center align-items-center mt-5 pt-5 pb-4 px-3 text-center"
+              class="one cards d-flex flex-column justify-content-center align-items-center mt-5 pt-5 pb-4 px-3 text-center"
             >
               <img src="images/avatar-anisha.png" alt="anisha photo" />
               <h6 class="fw-bold mt-2 mb-3">Anisha li</h6>
@@ -264,9 +323,9 @@
               </p>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3">
+          <div class="col-12">
             <div
-              class="cards d-flex flex-column justify-content-center align-items-center mt-5 pt-5 pb-4 px-3 text-center"
+              class="two cards d-flex flex-column justify-content-center align-items-center mt-5 pt-5 pb-4 px-3 text-center"
             >
               <img src="images/avatar-ali.png" alt="anisha photo" />
               <h6 class="fw-bold mt-2 mb-3">Ali Bravo</h6>
@@ -277,331 +336,288 @@
               </p>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3 mt-md-4 mt-lg-0">
+          <div class="col-12">
             <div
-              class="cards d-flex flex-column justify-content-center align-items-center mt-5 pt-5 pb-4 px-3 text-center"
+              class="three cards d-flex flex-column justify-content-center align-items-center mt-5 pt-5 pb-4 px-3 text-center"
             >
               <img src="images/avatar-richard.png" alt="anisha photo" />
               <h6 class="fw-bold mt-2 mb-3">Richard Watts</h6>
               <p>
                 “Manage allows us to provide structure and process. It keeps us
-                organized and focused. I can’t stop recommending them to everyone
-                I talk to!”
+                organized and focused. I can’t stop recommending them to
+                everyone I talk to!”
               </p>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3 mt-md-4 mt-lg-0">
+          <div class="col-12">
             <div
-              class="cards d-flex flex-column justify-content-center align-items-center mt-5 pt-5 pb-4 px-3 text-center"
+              class="four cards d-flex flex-column justify-content-center align-items-center mt-5 pt-5 pb-4 px-3 text-center"
             >
               <img src="images/avatar-shanai.png" alt="anisha photo" />
               <h6 class="fw-bold mt-2 mb-3">Shanai Gough</h6>
               <p>
-                “Their software allows us to track, manage and collaborate on our
-                projects from anywhere. It keeps the whole team in-sync without
-                being intrusive.”
+                “Their software allows us to track, manage and collaborate on
+                our projects from anywhere. It keeps the whole team in-sync
+                without being intrusive.”
               </p>
             </div>
           </div>
         </div>
-      </div>
-      <div class="d-md-none mobileCards d-flex">
-        <div class="col-12">
-          <div
-            class="one cards d-flex flex-column justify-content-center align-items-center mt-5 pt-5 pb-4 px-3 text-center"
-          >
-            <img src="images/avatar-anisha.png" alt="anisha photo" />
-            <h6 class="fw-bold mt-2 mb-3">Anisha li</h6>
-            <p>
-              “Manage has supercharged our team’s workflow. The ability to
-              maintain visibility on larger milestones at all times keeps
-              everyone motivated.”
-            </p>
-          </div>
+        <div
+          class="points d-md-none d-flex justify-content-center align-items-center mt-2"
+        >
+          <div data-num=".one" class="point me-1 activePoint"></div>
+          <div data-num=".two" class="point me-1"></div>
+          <div data-num=".three" class="point me-1"></div>
+          <div data-num=".four" class="point"></div>
         </div>
-        <div class="col-12">
-          <div
-            class="two cards d-flex flex-column justify-content-center align-items-center mt-5 pt-5 pb-4 px-3 text-center"
-          >
-            <img src="images/avatar-ali.png" alt="anisha photo" />
-            <h6 class="fw-bold mt-2 mb-3">Ali Bravo</h6>
-            <p>
-              “We have been able to cancel so many other subscriptions since
-              using Manage. There is no more cross-channel confusion and
-              everyone is much more focused.”
-            </p>
-          </div>
-        </div>
-        <div class="col-12">
-          <div
-            class="three cards d-flex flex-column justify-content-center align-items-center mt-5 pt-5 pb-4 px-3 text-center"
-          >
-            <img src="images/avatar-richard.png" alt="anisha photo" />
-            <h6 class="fw-bold mt-2 mb-3">Richard Watts</h6>
-            <p>
-              “Manage allows us to provide structure and process. It keeps us
-              organized and focused. I can’t stop recommending them to everyone
-              I talk to!”
-            </p>
-          </div>
-        </div>
-        <div class="col-12">
-          <div
-            class="four cards d-flex flex-column justify-content-center align-items-center mt-5 pt-5 pb-4 px-3 text-center"
-          >
-            <img src="images/avatar-shanai.png" alt="anisha photo" />
-            <h6 class="fw-bold mt-2 mb-3">Shanai Gough</h6>
-            <p>
-              “Their software allows us to track, manage and collaborate on our
-              projects from anywhere. It keeps the whole team in-sync without
-              being intrusive.”
-            </p>
-          </div>
+        <div class="d-flex justify-content-center align-items-center pb-md-5">
+          <button type="button" class="my-5 btn rounded-pill px-4 py-2 fw-bold">
+            Get Started
+          </button>
         </div>
       </div>
-      <div
-        class="points d-md-none d-flex justify-content-center align-items-center mt-2"
-      >
+      <!-- start team section -->
+      <div class="team">
         <div
-          data-num=".one"
-          class="point me-1 activePoint"
-        ></div>
-        <div
-          data-num=".two"
-          class="point me-1"
-        ></div>
-        <div
-          data-num=".three"
-          class="point me-1"
-        ></div>
-        <div
-          data-num=".four"
-          class="point"
-        ></div>
+          class="container text-center text-md-start flex-column flex-md-row d-flex justify-content-between align-items-center mt-md-5 mb-5 py-5"
+        >
+          <h1 class="text-white w-50">
+            Simplify how your your team works today.
+          </h1>
+          <button type="button" class="btn rounded-pill px-4 py-2 fw-bold mt-3">
+            Get Started
+          </button>
+        </div>
+        <div class="shape">
+          <img
+            src="images/bg-simplify-section-desktop.svg"
+            class="d-none d-md-block"
+            alt=""
+          />
+          <img
+            src="images/bg-simplify-section-mobile.svg"
+            alt=""
+            class="d-block d-md-none"
+          />
+        </div>
       </div>
-      <div class="d-flex justify-content-center align-items-center pb-md-5">
-        <button type="button" class="my-5 btn rounded-pill px-4 py-2 fw-bold">
-          Get Started
-        </button>
-      </div>
-    </div>
-    <!-- start team section -->
-    <div class="team">
-      <div
-        class="container text-center text-md-start flex-column flex-md-row d-flex justify-content-between align-items-center mt-md-5 mb-5 py-5"
-      >
-        <h1 class="text-white w-50">
-          Simplify how your your team works today.
-        </h1>
-        <button type="button" class="btn rounded-pill px-4 py-2 fw-bold mt-3">
-          Get Started
-        </button>
-      </div>
-      <div class="shape">
-        <img
-          src="images/bg-simplify-section-desktop.svg"
-          class="d-none d-md-block"
-          alt=""
-        />
-        <img
-          src="images/bg-simplify-section-mobile.svg"
-          alt=""
-          class="d-block d-md-none"
-        />
-      </div>
-    </div>
-    <!-- desktop screen Footer -->
-    <footer class="bg-dark text-white pt-2 pb-2 d-none d-md-block">
-      <div class="container pt-5 pb-4">
-        <div class="row">
-          <!--Grid column-->
-          <div class="col-md-3 col-lg-4">
-            <section
-              class="d-flex flex-column justify-content-between"
-              style="height: 176px"
+      <!-- desktop screen Footer -->
+      <footer class="bg-dark text-white pt-2 pb-2 d-none d-md-block">
+        <div class="container pt-5 pb-4">
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-md-3 col-lg-4">
+              <section
+                class="d-flex flex-column justify-content-between"
+                style="height: 176px"
+              >
+                <div
+                  class="desktopFooter-logo d-flex justify-content-center align-items-center overflow-hidden"
+                >
+                  <img
+                    src="images/logo-white.png"
+                    class="img-fluid w-75"
+                    alt=""
+                  />
+                </div>
+                <div class="d-flex justify-content-center align-items-center">
+                  <a class="me-2 me-lg-3" href="#!" role="button"
+                    ><img
+                      src="images/icon-facebook.svg"
+                      class="img-fluid"
+                      alt=""
+                  /></a>
+                  <a class="m-2 me-lg-3" href="#!" role="button"
+                    ><img
+                      src="images/icon-youtube.svg"
+                      class="img-fluid"
+                      alt=""
+                  /></a>
+                  <a class="m-2 me-lg-3" href="#!" role="button"
+                    ><img
+                      src="images/icon-twitter.svg"
+                      class="img-fluid"
+                      alt=""
+                  /></a>
+                  <a class="m-2 me-lg-3" href="#!" role="button"
+                    ><img
+                      src="images/icon-pinterest.svg"
+                      class="img-fluid"
+                      alt=""
+                  /></a>
+                  <a class="m-2" href="#!" role="button"
+                    ><img
+                      src="images/icon-instagram.svg"
+                      class="img-fluid"
+                      alt=""
+                  /></a>
+                </div>
+              </section>
+            </div>
+            <!--Grid column-->
+            <div class="col-md-2 col-lg-2 d-flex justify-content-center">
+              <ul class="list-unstyled">
+                <li class="mb-4">
+                  <a href="#!" class="text-white text-decoration-none">home</a>
+                </li>
+                <li class="mb-4">
+                  <a href="#!" class="text-white text-decoration-none"
+                    >pricing</a
+                  >
+                </li>
+                <li class="mb-4">
+                  <a href="#!" class="text-white text-decoration-none"
+                    >products</a
+                  >
+                </li>
+                <li>
+                  <a href="#!" class="text-white text-decoration-none"
+                    >about us</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+            <div class="col-md-3 col-lg-2 d-flex justify-content-center">
+              <ul class="list-unstyled">
+                <li class="mb-4">
+                  <a href="#!" class="text-white text-decoration-none"
+                    >careers</a
+                  >
+                </li>
+                <li class="mb-4">
+                  <a href="#!" class="text-white text-decoration-none"
+                    >community</a
+                  >
+                </li>
+                <li>
+                  <a href="#!" class="text-white text-decoration-none"
+                    >privacy plicy</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+            <div
+              class="col-md-4 col-lg-4 d-flex flex-column justify-content-between"
+              style="height: 177px"
             >
-              <div class="d-flex justify-content-center align-items-center">
-                <img src="images/logo.svg" class="img-fluid w-75" alt="" />
+              <form action="">
+                <input
+                  type="email"
+                  placeholder="updates in your inbox..."
+                  class="email rounded-pill ps-xl-4 ps-2 me-2 w-75"
+                />
+                <input
+                  type="submit"
+                  value="go"
+                  class="go rounded-pill mt-3 px-md-2 px-lg-3"
+                />
+              </form>
+              <div class="text-center p-lg-3" style="font-size: 12px">
+                Copyright 2020. All Rights Reserved
               </div>
-              <div class="d-flex justify-content-center align-items-center">
-                <a class="me-2 me-lg-3" href="#!" role="button"
-                  ><img
-                    src="images/icon-facebook.svg"
-                    class="img-fluid"
-                    alt=""
-                /></a>
-                <a class="m-2 me-lg-3" href="#!" role="button"
-                  ><img src="images/icon-youtube.svg" class="img-fluid" alt=""
-                /></a>
-                <a class="m-2 me-lg-3" href="#!" role="button"
-                  ><img src="images/icon-twitter.svg" class="img-fluid" alt=""
-                /></a>
-                <a class="m-2 me-lg-3" href="#!" role="button"
-                  ><img
-                    src="images/icon-pinterest.svg"
-                    class="img-fluid"
-                    alt=""
-                /></a>
-                <a class="m-2" href="#!" role="button"
-                  ><img
-                    src="images/icon-instagram.svg"
-                    class="img-fluid"
-                    alt=""
-                /></a>
-              </div>
-            </section>
-          </div>
-          <!--Grid column-->
-          <div class="col-md-2 col-lg-2 d-flex justify-content-center">
-            <ul class="list-unstyled">
-              <li class="mb-4">
-                <a href="#!" class="text-white text-decoration-none">home</a>
-              </li>
-              <li class="mb-4">
-                <a href="#!" class="text-white text-decoration-none">pricing</a>
-              </li>
-              <li class="mb-4">
-                <a href="#!" class="text-white text-decoration-none"
-                  >products</a
-                >
-              </li>
-              <li>
-                <a href="#!" class="text-white text-decoration-none"
-                  >about us</a
-                >
-              </li>
-            </ul>
-          </div>
-          <!--Grid column-->
-          <div class="col-md-3 col-lg-2 d-flex justify-content-center">
-            <ul class="list-unstyled">
-              <li class="mb-4">
-                <a href="#!" class="text-white text-decoration-none">careers</a>
-              </li>
-              <li class="mb-4">
-                <a href="#!" class="text-white text-decoration-none"
-                  >community</a
-                >
-              </li>
-              <li>
-                <a href="#!" class="text-white text-decoration-none"
-                  >privacy plicy</a
-                >
-              </li>
-            </ul>
-          </div>
-          <!--Grid column-->
-          <div
-            class="col-md-4 col-lg-4 d-flex flex-column justify-content-between"
-            style="height: 177px"
-          >
-            <form action="">
-              <input
-                type="email"
-                placeholder="updates in your inbox..."
-                class="email rounded-pill ps-xl-4 ps-2 me-2 w-75"
-              />
-              <input
-                type="submit"
-                value="go"
-                class="go rounded-pill mt-3 px-md-2 px-lg-3"
-              />
-            </form>
-            <div class="text-center p-lg-3" style="font-size: 12px">
-              Copyright 2020. All Rights Reserved
             </div>
           </div>
         </div>
-      </div>
-    </footer>
-    <!-- mobile screen Footer -->
-    <footer class="mobileFooter bg-dark text-white pt-2 pb-2 d-block d-md-none">
-      <div class="container pt-5 pb-3">
-        <!-- form -->
-        <form action="">
-          <input
-            type="email"
-            placeholder="updates in your inbox..."
-            class="email rounded-pill ps-4 me-2 w-75"
-          />
-          <input
-            type="submit"
-            value="go"
-            class="go rounded-pill mt-3 px-3"
-            style="width: 20%"
-          />
-        </form>
-        <div class="row my-5">
-          <div class="col-6 d-flex justify-content-start">
-            <ul class="list-unstyled">
-              <li class="mb-4">
-                <a href="#!" class="text-white text-decoration-none">home</a>
-              </li>
-              <li class="mb-4">
-                <a href="#!" class="text-white text-decoration-none">pricing</a>
-              </li>
-              <li class="mb-4">
-                <a href="#!" class="text-white text-decoration-none"
-                  >products</a
-                >
-              </li>
-              <li>
-                <a href="#!" class="text-white text-decoration-none"
-                  >about us</a
-                >
-              </li>
-            </ul>
+      </footer>
+      <!-- mobile screen Footer -->
+      <footer
+        class="mobileFooter bg-dark text-white pt-2 pb-2 d-block d-md-none"
+      >
+        <div class="container pt-5 pb-3">
+          <!-- form -->
+          <form action="">
+            <input
+              type="email"
+              placeholder="updates in your inbox..."
+              class="email rounded-pill ps-4 me-2 w-75"
+            />
+            <input
+              type="submit"
+              value="go"
+              class="go rounded-pill mt-3 px-3"
+              style="width: 20%"
+            />
+          </form>
+          <div class="row my-5">
+            <div class="col-6 d-flex justify-content-start">
+              <ul class="list-unstyled">
+                <li class="mb-4">
+                  <a href="#!" class="text-white text-decoration-none">home</a>
+                </li>
+                <li class="mb-4">
+                  <a href="#!" class="text-white text-decoration-none"
+                    >pricing</a
+                  >
+                </li>
+                <li class="mb-4">
+                  <a href="#!" class="text-white text-decoration-none"
+                    >products</a
+                  >
+                </li>
+                <li>
+                  <a href="#!" class="text-white text-decoration-none"
+                    >about us</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+            <div class="col-6 d-flex justify-content-end">
+              <ul class="list-unstyled">
+                <li class="mb-4">
+                  <a href="#!" class="text-white text-decoration-none"
+                    >careers</a
+                  >
+                </li>
+                <li class="mb-4">
+                  <a href="#!" class="text-white text-decoration-none"
+                    >community</a
+                  >
+                </li>
+                <li>
+                  <a href="#!" class="text-white text-decoration-none"
+                    >privacy plicy</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
-          <!--Grid column-->
-          <div class="col-6 d-flex justify-content-end">
-            <ul class="list-unstyled">
-              <li class="mb-4">
-                <a href="#!" class="text-white text-decoration-none">careers</a>
-              </li>
-              <li class="mb-4">
-                <a href="#!" class="text-white text-decoration-none"
-                  >community</a
-                >
-              </li>
-              <li>
-                <a href="#!" class="text-white text-decoration-none"
-                  >privacy plicy</a
-                >
-              </li>
-            </ul>
+          <!--contacts-->
+          <div
+            class="social d-flex justify-content-center align-items-center mb-5"
+          >
+            <a class="me-4" href="#!" role="button"
+              ><img src="images/icon-facebook.svg" class="img-fluid" alt=""
+            /></a>
+            <a class="me-4" href="#!" role="button"
+              ><img src="images/icon-youtube.svg" class="img-fluid" alt=""
+            /></a>
+            <a class="me-4" href="#!" role="button"
+              ><img src="images/icon-twitter.svg" class="img-fluid" alt=""
+            /></a>
+            <a class="me-4" href="#!" role="button"
+              ><img src="images/icon-pinterest.svg" class="img-fluid" alt=""
+            /></a>
+            <a href="#!" role="button"
+              ><img src="images/icon-instagram.svg" class="img-fluid" alt=""
+            /></a>
+          </div>
+          <!--logo-->
+          <div
+            class="d-flex justify-content-center align-items-center mb-5 pt-3 mobileFooter-logo"
+          >
+            <img src="images/logo-white.png" class="img-fluid w-50" alt="" />
+          </div>
+          <!--copyright-->
+          <div class="text-center pt-3 text-secondary" style="font-size: 12px">
+            Copyright 2020. All Rights Reserved
           </div>
         </div>
-        <!--contacts-->
-        <div
-          class="social d-flex justify-content-center align-items-center mb-5"
-        >
-          <a class="me-4" href="#!" role="button"
-            ><img src="images/icon-facebook.svg" class="img-fluid" alt=""
-          /></a>
-          <a class="me-4" href="#!" role="button"
-            ><img src="images/icon-youtube.svg" class="img-fluid" alt=""
-          /></a>
-          <a class="me-4" href="#!" role="button"
-            ><img src="images/icon-twitter.svg" class="img-fluid" alt=""
-          /></a>
-          <a class="me-4" href="#!" role="button"
-            ><img src="images/icon-pinterest.svg" class="img-fluid" alt=""
-          /></a>
-          <a href="#!" role="button"
-            ><img src="images/icon-instagram.svg" class="img-fluid" alt=""
-          /></a>
-        </div>
-        <!--logo-->
-        <div class="d-flex justify-content-center align-items-center mb-5">
-          <img src="images/logo.svg" class="img-fluid w-50" alt="" />
-        </div>
-        <!--copyright-->
-        <div class="text-center pt-3 text-secondary" style="font-size: 12px">
-          Copyright 2020. All Rights Reserved
-        </div>
-      </div>
-    </footer>
-  </div>
+      </footer>
+    </div>
     <script src="js/all.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>

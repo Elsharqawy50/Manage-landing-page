@@ -61,4 +61,3 @@ point.forEach(function (el) {
     }
   };
 });
-

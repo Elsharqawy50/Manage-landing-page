@@ -1,26 +1,26 @@
 * {
-  font-family: 'Be Vietnam Pro', sans-serif;
+  font-family: "Be Vietnam Pro", sans-serif;
   text-transform: capitalize;
   font-size: 16px;
   box-sizing: border-box;
 }
 :root {
-  --primary-red- : hsl(12, 88%, 59%);
-  --primary-blue- : hsl(228, 39%, 23%);
+  --primary-red-: hsl(12, 88%, 59%);
+  --primary-blue-: hsl(228, 39%, 23%);
   --secondry-color-1-: hsl(227, 12%, 61%);
   --secondry-color-2-: hsl(233, 12%, 13%);
   --secondry-color-3-: hsl(13, 100%, 96%);
   --secondry-color-4-: hsl(0, 0%, 98%);
 }
 .site {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 /* start nav */
 .navbar .navbar-nav .nav-link {
   color: var(--primary-blue-);
   font-weight: bold;
 }
-.navbar .navbar-nav .nav-link:hover{
+.navbar .navbar-nav .nav-link:hover {
   opacity: 50%;
 }
 .navbar button:last-child {
@@ -29,7 +29,7 @@
   border: none;
   color: white;
   box-shadow: 0px 7px 12px -5px var(--primary-red-);
-} 
+}
 .navbar button:focus:last-child {
   box-shadow: 0px 7px 12px -5px var(--primary-red-);
 }
@@ -56,7 +56,7 @@
   z-index: -20;
 }
 .navbar .mobileShape img {
-width: 500px;
+  width: 500px;
 }
 .mobileNavbar {
   position: fixed;
@@ -79,20 +79,20 @@ width: 500px;
   transition: 0.5s;
 }
 /* start landing */
-.landing h1{
+.landing h1 {
   color: var(--primary-blue-);
   font-size: 52px;
 }
-.landing p{
+.landing p {
   color: var(--secondry-color-1-);
   line-height: 1.8rem;
   width: 64%;
 }
-@media (max-width:768px) {
-  .landing h1{
+@media (max-width: 768px) {
+  .landing h1 {
     font-size: 38px;
   }
-  .landing p{
+  .landing p {
     width: 100%;
     font-size: 15px;
   }
@@ -103,14 +103,14 @@ width: 500px;
   border: none;
   color: white;
   box-shadow: 0px 7px 12px -5px var(--primary-red-);
-} 
-.landing button:focus{
+}
+.landing button:focus {
   box-shadow: 0px 7px 12px -5px var(--primary-red-);
 }
 .landing button:hover {
   color: white;
   opacity: 50%;
-} 
+}
 .landing .desktopShape {
   position: absolute;
   top: 1230px;
@@ -131,20 +131,20 @@ width: 500px;
 .manage .container {
   overflow: hidden;
 }
-.manage h1{
+.manage h1 {
   color: var(--primary-blue-);
 }
-.manage .textManage p{
+.manage .textManage p {
   color: var(--secondry-color-1-);
   line-height: 1.8rem;
   width: 64%;
 }
-@media (max-width:768px) {
-  .manage h1{
+@media (max-width: 768px) {
+  .manage h1 {
     width: 70%;
     margin: 0px auto;
   }
-  .manage .textManage p{
+  .manage .textManage p {
     width: 100%;
   }
 }
@@ -184,9 +184,9 @@ width: 500px;
   color: var(--primary-blue-);
 }
 .charcter .desktopCards .cards {
-background-color: var(--secondry-color-4-);
-position: relative;
-width: 100%;
+  background-color: var(--secondry-color-4-);
+  position: relative;
+  width: 100%;
 }
 .charcter .mobileCards {
   overflow-x: hidden;
@@ -224,8 +224,8 @@ width: 100%;
   border: none;
   color: white;
   box-shadow: 0px 7px 12px -5px var(--primary-red-);
-} 
-.charcter button:focus{
+}
+.charcter button:focus {
   box-shadow: 0px 7px 12px -5px var(--primary-red-);
 }
 .charcter button:hover {
@@ -237,9 +237,9 @@ width: 100%;
   background-color: var(--primary-red-);
   position: relative;
   overflow: hidden;
-} 
-@media (max-width:768px) {
-  .team h1{
+}
+@media (max-width: 768px) {
+  .team h1 {
     width: 100% !important;
   }
 }
@@ -249,17 +249,17 @@ width: 100%;
   outline: none;
   border: none;
 }
-.team button:focus{
+.team button:focus {
   box-shadow: none;
 }
 .team button:hover {
   background-color: white;
   color: hsla(12, 88%, 59%, 0.493);
 }
-.team .shape img{
+.team .shape img {
   position: absolute;
   top: -18px;
-  left:0px
+  left: 0px;
 }
 /* start footer */
 footer .email {
@@ -278,6 +278,16 @@ footer .go {
   color: white;
   outline: none;
 }
-.mobileFooter .social a img{
+.mobileFooter .social a img {
   width: 35px;
+}
+.desktopFooter-logo {
+  height: 55px;
+  position: relative;
+}
+.desktopFooter-logo img {
+  position: absolute;
+}
+.mobileFooter-logo {
+  height: 50px;
 }

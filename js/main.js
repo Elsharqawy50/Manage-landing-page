@@ -61,3 +61,21 @@ point.forEach(function (el) {
     }
   };
 });
+// copyright year
+let copyrightYear = document.querySelectorAll('.copyright span')
+let year = new Date().getFullYear()
+copyrightYear.forEach(ele => ele.innerHTML = year)
+// top scroll button
+let topButton = document.querySelector('.topButton')
+window.addEventListener('scroll', () => {
+  if (this.scrollY>=400) {
+    topButton.style.opacity = '1'
+    topButton.style.visibility = 'visible'
+  } else {
+    topButton.style.opacity = '0'
+    topButton.style.visibility = 'hidden'
+  }
+})
+topButton.onclick = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" })
+}

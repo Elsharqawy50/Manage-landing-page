@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="icon" href="images/favicon-32x32.png" />
+    <link rel="icon" href="images/favi.png" />
     <title>Manage Landing Page</title>
   </head>
   <body>
@@ -96,7 +96,7 @@
         </div>
       </nav>
       <!-- start landing section -->
-      <div class="landing">
+      <div class="landing d-flex align-items-center">
         <div class="container pt-5 pb-5">
           <div class="row">
             <div class="col-md-6 order-2 order-md-1">
@@ -421,7 +421,9 @@
                     alt=""
                   />
                 </div>
-                <div class="d-flex justify-content-center align-items-center">
+                <div
+                  class="socialPhotos d-flex justify-content-center align-items-center"
+                >
                   <a class="me-2 me-lg-3" href="#!" role="button"
                     ><img
                       src="images/icon-facebook.svg"
@@ -512,11 +514,11 @@
                 <input
                   type="submit"
                   value="go"
-                  class="go rounded-pill mt-3 px-md-2 px-lg-3"
+                  class="go rounded-pill px-md-2 px-lg-3"
                 />
               </form>
-              <div class="text-center p-lg-3" style="font-size: 12px">
-                Copyright 2020. All Rights Reserved
+              <div class="copyright text-center p-lg-3" style="font-size: 12px">
+                Copyright <span></span>. All Rights Reserved
               </div>
             </div>
           </div>
@@ -587,7 +589,7 @@
           </div>
           <!--contacts-->
           <div
-            class="social d-flex justify-content-center align-items-center mb-5"
+            class="social socialPhotos d-flex justify-content-center align-items-center mb-5"
           >
             <a class="me-4" href="#!" role="button"
               ><img src="images/icon-facebook.svg" class="img-fluid" alt=""
@@ -612,11 +614,16 @@
             <img src="images/logo-white.png" class="img-fluid w-50" alt="" />
           </div>
           <!--copyright-->
-          <div class="text-center pt-3 text-secondary" style="font-size: 12px">
-            Copyright 2020. All Rights Reserved
+          <div
+            class="copyright text-center pt-3 text-secondary"
+            style="font-size: 12px"
+          >
+            Copyright <span></span>. All Rights Reserved
           </div>
         </div>
       </footer>
+      <!-- top scroll button -->
+      <div class="topButton d-flex align-items-center justify-content-center"><i class="fa-solid fa-arrow-up"></i></div>
     </div>
     <script src="js/all.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>

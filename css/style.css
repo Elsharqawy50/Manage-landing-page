@@ -79,6 +79,9 @@
   transition: 0.5s;
 }
 /* start landing */
+.landing {
+  min-height: calc(100vh - 56px);
+}
 .landing h1 {
   color: var(--primary-blue-);
   font-size: 52px;
@@ -122,7 +125,7 @@
 }
 .landing .mobileShape img {
   position: absolute;
-  top: -265px;
+  top: 90px;
   right: -180px;
   z-index: -20;
   width: 300px;
@@ -267,9 +270,11 @@ footer .email {
   border: none;
   color: var(--primary-red-);
   outline: none;
+  font-size: 14px;
 }
 footer .email::placeholder {
   font-size: 12px;
+  color: var(--primary-red-);
 }
 footer .go {
   background-color: var(--primary-red-);
@@ -278,8 +283,20 @@ footer .go {
   color: white;
   outline: none;
 }
+footer .go:hover {
+  background-color: hsl(12deg 86% 71%);
+}
 .mobileFooter .social a img {
   width: 35px;
+}
+.socialPhotos a {
+  border-bottom: 2px solid transparent;
+  padding-bottom: 5px;
+  transition: all 0.3s;
+}
+.socialPhotos a:hover {
+  border-bottom: 2px solid white;
+  transform: translateY(-4px);
 }
 .desktopFooter-logo {
   height: 55px;
@@ -290,4 +307,25 @@ footer .go {
 }
 .mobileFooter-logo {
   height: 50px;
+}
+.copyright span {
+  font-size: inherit;
+}
+/* start top button */
+.topButton {
+  color: white;
+  background-color: var(--primary-red-);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.4s;
+  visibility: hidden;
+}
+.topButton:hover {
+  background-color: hsl(12deg 86% 71%);
 }
